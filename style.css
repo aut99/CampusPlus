@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    font-family: Obvia;
+    width: 100%;
+}
+
+/* Tilføj padding og max bredde for containeren */
+.container {
+   //* max-width: 400px; /* Begræns bredden til mobilskærm */
+    width: 100%; /* Fylder hele bredden */
+    background-color: #A8B8AF;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lidt skygge */
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100vw; /*skriver automatisk**/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Tilpas navigation til altid at være fast nederst */
+.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px; /* Match containerens max bredde */
+    left: 50%;
+    transform: translateX(-50%); /* Centrer navigationen */
+    padding: 8px 16px;
+    background-color: #4a6459;
+    border-radius: 20px;
+}
+
+
+
+.screen {
+    text-align: center;
+    background-color: #A8B8AF;
+    position: absolute;
+    margin-top: 30%;
+    width: 100vw;
+
+
+}
+
+}
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+header h2 {
+    color: #00796b;
+    margin-top: 10px;
+}
+.profile-picture{
+    width: 300px;
+    z-index: 3;
+}
+.stickers img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover;
+    margin-top: 200px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.profile span {
+    font-weight: bold;
+    color: #00796b;
+}
+
+.stickers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.sticker {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+.locked {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005f54;
+}
+
+/**stylingen af headeren kommer hernede*/
+.roshni-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;!important;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 50%;
+    margin-bottom: 16px;
+}
