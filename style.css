@@ -93,7 +93,7 @@ body {
     font-size: 40px;
 }
 
-.roshni-header {
+.tea-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,7 +250,7 @@ input[type='text']{
 }
 .evaluerings-section{
     width: 100%;
-    background-color: red;
+    background-color: white;
     padding-top: px;
 }
 
