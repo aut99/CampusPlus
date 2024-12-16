@@ -1,0 +1,265 @@
+/*fonts*/
+@font-face {
+    font-family: 'MyFontRegular';
+    src: url('/fonts/Fontspring-DEMO-obvia_regular.otf') format('opentype'),
+    url('/fonts/Fontspring-DEMO-obvia_regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyFontBold';
+    src: url('/fonts/Fontspring-DEMO-obvia_medium.otf') format('opentype'),
+    url('/fonts/Fontspring-DEMO-obvia_medium.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    font-family: 'MyFontRegular', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.main-green{
+    background-color: #A8B8AF ;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    width: 100vw;
+
+    display: flex;/**Herfra sorger stylingen for at alle elementerne i main er i column og centreret i midten**/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25%;
+    padding-bottom: 16px;
+
+}
+.profile-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+/**cirklen med 3 tallet i**/
+.profile-info>div{
+    width: 45px;
+    height: 45px;
+    background-color: #547261;
+    color: white;
+    padding: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 100%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.profile-info>div>p{
+    font-family: 'MyFontBold', sans-serif;
+    font-size: 40px;
+}
+
+.tea-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 550px;!important;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 50%;
+    margin-bottom: 16px;
+}
+.profile-picture{
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    top:20%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 50% 50%;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+
+
+}
+.grid-container>div {
+
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid-container>div img {
+
+    width: 150px;
+    padding: 16px;
+
+}
+.evalueringBtn{
+    background-color: #547261;
+    color: white;
+    width: 300px;
+    height: 100px;
+
+    border-radius: 55px 55px 55px 55px; /* Tilpassede hjørner */
+    border: none;
+
+}
+.evalueringBtn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'MyFontBold', sans-serif;
+    font-size: 40px;
+    border: none;
+
+}
+.footer-green{
+    background-color: #A8B8AF;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-green-plank{
+    background-color: #547261;
+    border-radius: 65px 65px 65px 65px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+
+
+}
+.footer-green-plank ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    height: 120px;
+}
+.footer-green-plank img{
+    width: 64px;
+
+}
+.footer-green-plank img:hover{
+    opacity: 50%;
+}
+button:hover{
+    opacity: 50%;
+}
+
+/**her er stylingen for evalueringssiden**/
+
+.main-green-evaluering{
+    background-color: #A8B8AF ;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 100vw;
+
+    display: flex;/**Herfra sorger stylingen for at alle elementerne i main er i column og centreret i midten**/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.profile-picture-evaluering{
+    width: 350px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 100%;
+    padding-left: 62px;
+}
+.form-section{
+    margin-top: 300px;
+    width: 80%;
+    justify-content: left;
+    align-items:start;
+    text-align: left;
+    padding-left: 62px;
+}
+.form-section p{
+    font-size: 30px;
+    margin-bottom: 24px;
+    color: white;
+    margin-top: 32px;
+}
+input[type='text']{
+    background-color: white;
+    width:80%;
+    height: 100px;
+    margin-bottom: 25px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+}
+.evaluerings-section{
+    width: 100%;
+    background-color: white;
+    padding-top: px;
+}
+
+
+/**HER LIGGER STYLINGEN FOR JERES SIDSTE SIDE
+ */
+
+.thankyou-p{
+    font-size: 50px;
+    margin-top: 50px;
+    color: white;
+}
